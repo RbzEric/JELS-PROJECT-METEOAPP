@@ -1,0 +1,39 @@
+html, body {
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    min-width: 400px;
+  }
+  .container{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: black 10px 10px 60px;
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+  #ville {
+    text-transform: capitalize;
+  }
+  
+  #temperature {
+    font-size: 4em;
+  }
+  
+  #changer {
+    background: rgba(178, 223, 251, .3);
+    cursor: pointer;
+    padding: 10px 0;
+    border: 1px solid aqua;
+    border-radius: 10px ;
+    color : blue;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  #changer:hover{
+    background-color: #2980B9;
+    color: #FFFFFF;
+  }
